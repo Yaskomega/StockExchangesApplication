@@ -1,0 +1,21 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Company</th>
+    <th scope="col">Price</th>
+    <th scope="col">Average Volume</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% stocks.forEach(function (stock) { %>
+    <tr>
+      <th scope="row">1</th>
+      <td><%= stock.Company %></td>
+      <td><%= stock.Price %></td>
+      <td><%= stock.AverageVolume %></td>
+    </tr>
+  <% }) %>
+  </tbody>
+</table>
+

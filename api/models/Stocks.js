@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
-
+    AverageVolume: {
+      type: 'integer',
+      columnName: 'Average Volume'
+    }
   },
   connection : 'mongodb'
 };
